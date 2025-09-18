@@ -1,16 +1,25 @@
 ## Hi there 👋
+My name is Ivan, i am student of MSU soil science faculty ^)
 
-<!--
-**Master391034/Master391034** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm bioinformatics specialist with experience in genomics and metagenomics analysis.
 
-Here are some ideas to get you started:
+## Skills
+- **Genome Assembly**: De novo assembly (Illumina + Nanopore), quality assessment (QUAST, BUSCO)
+- **Metagenomics**: 16S analysis, metagenome assembly, DADA2 denoising
+- **Bioinformatics Tools**: BLAST (blastn, blastx), alignment, variant calling
+- **Programming**: R, Bash, Python basics
+- **Data Analysis**: Statistical analysis, data visualization
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Projects
+
+### [Hybrid Genome Assembly Pipeline](https://github.com/Master391034/hybrid-genome-assembly-pipeline)
+Automated pipeline for hybrid genome assembly with quality assessment and visualization.
+
+### [Microbiome Analysis](not yet avaible) 
+16S rRNA analysis pipeline with DADA2 and statistical analysis in R. 
+
+## Education
+- [Bachelor in the field of Soil Science]
+
+## Contact
+- Email: [stata-boss88@mail.ru]
