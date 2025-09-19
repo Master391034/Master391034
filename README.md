@@ -1,5 +1,5 @@
 ## Hi there 👋
-My name is Ivan, i am student of MSU soil science faculty ^)
+My name is Ivan, I am student of MSU soil science faculty ^)
 
 I'm bioinformatics specialist with experience in genomics and metagenomics analysis.
 
