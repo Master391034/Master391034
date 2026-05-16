@@ -1,6 +1,6 @@
 ## Hi there 👋
 My name is Ivan, I’m a biologist-turned-ML-engineer with a passion for applying data science to medicine and biology.  
-I hold a Master’s degree from the Faculty of Soil Science of Moscow State University, and I’m currently looking for a **junior ML/DS position or internship** in the biomedical / biotech domain.
+I hold a Master’s degree from the Faculty of Soil Science of Lomonosov Moscow State University, and I’m currently looking for a **junior ML/DS position or internship** in the biomedical / biotech domain.
 
 ## Core competences
 - **Machine Learning & Deep Learning:** supervised learning, transfer learning, autoencoders, model interpretation (SHAP, Grad‑CAM)
