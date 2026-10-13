@@ -1,13 +1,16 @@
 ## Hi there 👋
-My name is Ivan, I’m a biologist-turned-ML-engineer with a passion for applying data science to medicine and biology.  
-I hold a Master’s degree from the Faculty of Soil Science of Lomonosov Moscow State University, and I’m currently looking for a **junior ML/DS position or internship** in the agrotech / biotech domain.
+My name is Ivan, I'm a biologist-turned-ML-engineer with a passion for applying data science to medicine, biology and agriculture.
+I hold a Master's degree from the Faculty of Soil Science of Lomonosov Moscow State University, and I'm currently looking for a junior ML/DS position or internship in the agrotech / biotech domain.
 
 ## Core competences
-- **Machine Learning & Deep Learning:** supervised learning, transfer learning, autoencoders, model interpretation (SHAP, Grad‑CAM)
-- **Multi-omics integration:** bulk RNA‑seq, scRNA‑seq, methylation, miRNA; MOFA, PCA, UMAP, custom autoencoders
+
+- **Machine Learning & Deep Learning:** supervised learning, transfer learning, autoencoders, model interpretation (SHAP, Grad-CAM)
+- **Computer vision:** semantic segmentation (U-Net / U-Net++, EfficientNet encoders), ensembling, TTA, classical CV for measurement tasks (OpenCV)
+- **Multi-omics integration:** bulk RNA-seq, scRNA-seq, methylation, miRNA; MOFA, PCA, UMAP, custom autoencoders
 - **Bioinformatics:** genome assembly (Illumina + Nanopore), metagenomics (16S, DADA2, PiCRUST, Kraken2), alignment, variant calling
-- **Tools & Languages:** Python (pandas, scikit‑learn, PyTorch, CatBoost), R, Bash, Git
-- **Soft skills:** project documentation, reproducible research, cross‑validation, clear visualizations
+- **Validation discipline:** leakage-free cross-validation by group, blind ground-truth annotation, controls that fail loudly, domain-shift awareness
+- **Tools & Languages:** Python (pandas, scikit-learn, PyTorch, CatBoost, OpenCV), R, Bash, Git, Docker.
+- **Soft skills:** project documentation, reproducible research, clear visualizations
 
 ## Projects
 
@@ -17,18 +20,20 @@ Integration of expression, methylation and miRNA data with autoencoders, MOFA, P
 - Biological interpretation of latent factors (apoptosis, proliferation, methylation, motility)  
 - Clean notebook, production‑ready model saving, full documentation
 
-### [Classification of "The Simpsons" characters (42 classes)]
-Deep learning project with transfer learning (EfficientNet‑B3), Grad‑CAM visualization, and production artifacts.  
-- Achieved 96.82% validation accuracy after fine‑tuning  
-- Includes data augmentation, mixed precision training, and clear inference examples
+### [FTU segmentation] — 2nd place, OpenBio competition
 
+Segmentation of functional tissue units in five organs (kidney, prostate, large intestine, lung, spleen), 1744 train images, metric: mean IoU. Final score **0.7588**.
+- Ensemble of 5 CNN segmentation models (U-Net / U-Net++ with EfficientNet encoders), 8-fold TTA, per-organ thresholds, GroupKFold by patient
+- **Geometric-mean ensembling** instead of arithmetic: acts as an agreement filter — a single confident "background" vote suppresses the pixel. 
+- **Entropy gating for lung:** alveoli are nearly indistinguishable from background by brightness (Δ5 px), but differ in texture entropy (4.21 vs 2.95). Switching from segmentation to tile-level detection of FTU presence gave +0.19 IoU on validation and +0.007 LB
+  
 ### [Breast Cancer Wisconsin – interpretable ML]
 Complete ML pipeline on tabular data: EDA, cross‑validation of 7 classifiers, Optuna hyperparameter tuning, SHAP analysis.  
 - XGBoost selected as final model; threshold analysis and production saving without scaler
 
 ## 🎓 Education
 - **Master’s degree** – Faculty of Soil Science, Lomonosov Moscow State University  
-- **Bioinformatics & Data Science** – multiple specialized courses and workshops (Blasteam, faculty of AI MSU)
+- **Bioinformatics & Data Science** – multiple specialized courses and workshops (Blasteam, faculty of AI MSU, OpenBio, Positive Technologies)
 
 ## 📫 Contact
 - Email: [stata-boss88@mail.ru]  
