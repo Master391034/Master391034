@@ -16,7 +16,7 @@ I hold a Master's degree from the Faculty of Soil Science of Lomonosov Moscow St
 
 ### [Multi-omics survival prediction for breast cancer (TCGA-BRCA)]
 Integration of expression, methylation and miRNA data with autoencoders, MOFA, PCA and UMAP.  
-- Cross‑validated comparison of 6 methods; final model – Autoencoder 2 + CatBoost (C‑index = 0.626)  
+- Cross‑validated comparison of 6 methods; final model - Autoencoder 2 + CatBoost (C‑index = 0.626)  
 - Biological interpretation of latent factors (apoptosis, proliferation, methylation, motility)  
 - Clean notebook, production‑ready model saving, full documentation
 
@@ -32,11 +32,11 @@ Complete ML pipeline on tabular data: EDA, cross‑validation of 7 classifiers, 
 - XGBoost selected as final model; threshold analysis and production saving without scaler
 
 ## 🎓 Education
-- **Master’s degree** – Faculty of Soil Science, Lomonosov Moscow State University  
-- **Bioinformatics & Data Science** – multiple specialized courses and workshops (Blasteam, faculty of AI MSU, OpenBio, Positive Technologies)
+- **Master’s degree** - Faculty of Soil Science, Lomonosov Moscow State University  
+- **Bioinformatics & Data Science** - multiple specialized courses and workshops (Blasteam, faculty of AI MSU, OpenBio, Positive Technologies)
 
 ## 📫 Contact
 - Email: [stata-boss88@mail.ru]  
 - Telegram: @Master21003 
 
-*Open to internships and junior positions in biomedical ML / data science – feel free to reach out!*
+*Open to internships and junior positions in biomedical ML / data science - feel free to reach out!*
